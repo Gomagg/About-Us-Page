@@ -1,0 +1,105 @@
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 2%;
+    text-align: center;
+    height: 180vh;
+    max-width: px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  h1 {
+    font-size: 2.5rem;
+    padding: auto;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pic {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .small-text {
+    font-size: 0.7rem;
+    max-width: 100%;
+    color: white;
+    text-align: left;
+    
+  }
+  .one {
+    max-width: ;
+    max-height: ;
+    margin-right: 20px;
+  }
+  .two{
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  /* A535F1 */  
+  .container{
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(19, 2, 24);
+    max-width: px;
+    max-height: 80px;
+  }
+  .subscribe {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 15px 18px;
+    margin: 10px 5px;
+  }
+  input {
+    margin-top: 10px;
+    max-width: 150px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 26px;
+  }
+  button {
+    background-color: #a535f1;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    width: 60px;
+    height: 28px;
+    font-size: 0.53rem;
+    margin-top: 10px;
+  }
+}
+
+
+/* Desktop Style View */
+@media only screen and (min-width: 481px) and (max-width: 1800px) {
+  body {
+    text-align: center;
+    height: 180vh;
+    max-width: 2000px;
+    padding: 1.5% 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .text{
+    text-align: left;
+  }
+  .pic{
+    padding-top: 40px;
+  }
