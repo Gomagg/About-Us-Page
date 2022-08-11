@@ -58,7 +58,7 @@
   .container{
     border: none;
     border-radius: 10px;
-    background-color: rgb(61, 6, 78);
+    background-color: #210B30;
     margin-top: 60px;
     margin: 5% 30% 0% 22%;
     max-height: 8%;
@@ -141,7 +141,7 @@
     text-align: center;
     padding: 10%;
     margin: 5px 5px 5px 10px;
-    background-color: rgb(19, 2, 24);
+    background-color: #210B30;
     border: none;
     border-radius: 7px;
   }
