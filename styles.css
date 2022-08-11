@@ -110,7 +110,7 @@
     padding: 2%;
     text-align: center;
     height: 200vh;
-    max-width: px;
+    max-width: 480px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
   }
@@ -125,8 +125,6 @@
   .flex {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 50px;
-
   }
   .pic {
     margin-top: 25px;
@@ -181,7 +179,9 @@
     }
   ip2{ 
     margin-right: 15px;
-
-
+}
+    .text{
+      margin-top: 100px;
+    }
 }
 
