@@ -117,6 +117,8 @@
   .flex {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+
   }
   .pic {
     margin-top: 25px;
@@ -147,7 +149,7 @@
     border-radius: 7px;
   }
   input {
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 10px;
     width: 100px;
     border-top-left-radius: 5px;
