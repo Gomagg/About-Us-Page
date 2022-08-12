@@ -376,7 +376,7 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    height: 20px;
+    height: 22px;
     margin-top: px;
   }
   button {
@@ -385,11 +385,12 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: white;
-    width: 60px;
-    height: 22px;
-    margin-bottom: 5px;
+    width: 57px;
+    height: 26px;
+    margin-bottom: 8px;
     font-size: 0.53rem;
-   
+    margin-left: -6px;
+    
   }
   #but{
     margin: ;
