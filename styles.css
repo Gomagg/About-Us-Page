@@ -216,7 +216,7 @@
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   body {
     text-align: center;
-    height: 200vh;
+    height: 150vh;
     max-width: 200vh;
     padding: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -319,7 +319,7 @@
   body {
     padding: 2%;
     text-align: center;
-    height: 300vh;
+    height: 180vh;
     max-width: 480px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
@@ -389,7 +389,7 @@
     height: 26px;
     margin-bottom: 8px;
     font-size: 0.53rem;
-    margin-left: -6px;
+    margin-left: -4.5px;
     
   }
   #but{
