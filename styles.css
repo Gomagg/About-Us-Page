@@ -105,7 +105,6 @@
     text-align: center;
     height: 100vh;
     max-width: 900vh;
-    padding: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   p {
@@ -288,7 +287,6 @@
     input {
       align-items: center;
       margin-top: 0px;
-      width: ;
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
       border: none;
@@ -309,12 +307,12 @@
   
 
 
-/* 481px to 1100px */
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
+/* 901x to 1023px */
+@media only screen and (min-width: 901px) and (max-width: 1023px) {
   body {
     text-align: center;
     height: 150vh;
-    max-width: 200vh;
+    max-width: 300vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   p {
@@ -337,7 +335,6 @@
     align-items: center;
     padding-top: 50px;
     margin-right: 25%;
-    
   }
   .text{
     text-align: left;
@@ -356,7 +353,6 @@
     font-size: 0.5rem
   }
   .one {
-    max-width: ;
     max-height: 200px;
     min-width: 2px;
     margin-top: 5px;
@@ -407,6 +403,85 @@
   }
 }
 
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  body {
+    padding: 2%;
+    text-align: center;
+    height: 180vh;
+    max-width: 480px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5%;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .text{
+    margin-top: 180px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    padding: auto;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pic {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .small-text {
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  #two{
+
+  }
+.container{
+  background-color: #210B30;
+  margin: 5px 5px 5px 10px;
+  border-radius: 7px;
+}
+  .subscribe {
+    /* align-items: center; */
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0%;
+    border: none;
+    
+  }
+  input {
+    align-self: center;
+    width: 120px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    height: 22px;
+    margin-top: px;
+  }
+  button {
+    background-color: #a535f1;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    width: 57px;
+    height: 26px;
+    margin-bottom: 8px;
+    font-size: 0.53rem;
+    margin-left: -4px;
+    
+  }
+}
+
+
+
 /* Phone style view */
 @media only screen and (max-width: 480px) {
   body {
@@ -443,10 +518,8 @@
     
   }
   
-  .two{
-    align-items: center;
-    display: flex;
-    border-width: px;
+  #two{
+
   }
 .container{
   background-color: #210B30;
